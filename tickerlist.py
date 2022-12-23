@@ -1,7 +1,7 @@
 import psycopg2
 import requests 
 
-conn = psycopg2.connect(database="stocks-us", user="postgres", password="2722498Melina!", host="127.0.0.1", port="5432" )
+conn = psycopg2.connect(database="stocks-us", user="postgres", password="*********", host="*******", port="*****" )
 
 def insertData(f_data):
     try:    
