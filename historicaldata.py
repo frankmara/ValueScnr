@@ -6,7 +6,7 @@ import datetime
 
 
 
-conn = psycopg2.connect(database="stocks-us", user = "postgres", password = "2722498Melina!", host = "127.0.0.1", port = "5432")
+conn = psycopg2.connect(database="stocks-us", user = "postgres", password = "**********", host = "******", port = "****")
 
 def insertData(f_data):
         sql = "INSERT INTO financials (stock, income_statement, balance_sheet, cash_flow, enterprise_value, key_metrics, financial_growth) VALUES (%s,%s,%s,%s,%s,%s,%s)" 
