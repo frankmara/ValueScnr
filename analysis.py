@@ -3,7 +3,7 @@ from statistics import mean
 from tabulate import tabulate
 
 def main():
-    conn = psycopg2.connect(database="stocks-us", user = "postgres", password = "2722498Melina!", host = "127.0.0.1", port = "5432")
+    conn = psycopg2.connect(database="stocks-us", user = "postgres", password = "********", host = "127.0.0.1", port = "5432")
     cur = conn.cursor()
     cur.execute("SELECT * FROM financials;")
     rows = cur.fetchall()
